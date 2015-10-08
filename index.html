@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> <!--for bootstrap theme-->    
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>        
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><!--for bootstrap theme-->    
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+
+<script src="src/jquery.picture.cut.js"></script> 
+  <div id="container_image"></div>  
+  <script>$("#container_image").PictureCut({
+                  InputOfImageDirectory       : "image",
+                  PluginFolderOnServer        : "/jQuery-Picture-Cut/",
+                  FolderOnServer              : "/jQuery-Picture-Cut/uploads/",
+                  EnableCrop                  : false,
+                  CropWindowStyle             : "Bootstrap"
+              });
+                  </script>
