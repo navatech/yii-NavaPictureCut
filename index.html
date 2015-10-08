@@ -1,25 +1,23 @@
-<link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> <!--for bootstrap theme-->
-
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><!--for bootstrap theme-->
-<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
-
-<script src="src/jquery.picture.cut.js"></script>
+<link rel="stylesheet" href="assets/bootstrap.min.css">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/jquery-1.11.3.min.js"></script>
+<script src="assets/bootstrap.min.js"></script>
+<script src="assets/jquery-ui.min.js"></script>
+<script src="assets/jquery.picture.cut.js"></script>
 
 <div class="upload" id="container_image1"></div>
 <div class="upload" id="container_image2"></div>
 
 <script>
     $(".upload").PictureCut({
-        InputOfImageDirectory: "iamage",
+        InputOfImageDirectory: "image",
         PluginFolderOnServer: "/jQuery-Picture-Cut/",
         FolderOnServer: "/jQuery-Picture-Cut/uploads/",
         EnableCrop: true,
         CropWindowStyle: "Bootstrap",
         Title: "Sửa ảnh",
         ImageButtonCSS: {
-            border: "1px #CCC solid",
+            border: "1px #CCC dashed",
             width: 140,
             height: 100
         },

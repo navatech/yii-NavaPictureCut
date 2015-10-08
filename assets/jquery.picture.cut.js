@@ -193,9 +193,9 @@ $(function () {
         },
         init: function (Options) {
             var OptionsIfEmpty = {
-                ActionToSubmitUpload: "src/php/upload.php",
-                ActionToSubmitCrop: "src/php/crop.php",
-                DefaultImageButton: "src/img/icon_add_image2.png"
+                ActionToSubmitUpload: "upload.php",
+                ActionToSubmitCrop: "crop.php",
+                DefaultImageButton: "assets/icon_add_image.png"
             };
             var defaults = {
                 Extensions: ["jpg", "png", "gif"],
@@ -262,7 +262,7 @@ $(function () {
                 Options.InputOfFile = "file-" + Options.InputOfImageDirectory
             }
             ;
-            __IMAGE_LOADING = Options.PluginFolderOnServer + "src/img/ajaxloader.gif";
+            __IMAGE_LOADING = Options.PluginFolderOnServer + "assets/ajaxloader.gif";
             if (Options.PastaCrop != undefined) Options.PluginFolderOnServer = Options.PastaCrop;
             if (Options.CropWindowStyle.toLowerCase() == "bootstrap") {
                 var id = "picture_element_css_to_bootstrap";
@@ -271,7 +271,7 @@ $(function () {
                         id: id,
                         rel: 'stylesheet',
                         type: 'text/css',
-                        href: Options.PluginFolderOnServer + 'src/windows/JanelaBootstrap/jquery-ui-1.10.0.custom.css'
+                        href: Options.PluginFolderOnServer + 'templates/JanelaBootstrap/jquery-ui-1.10.0.custom.css'
                     }).appendTo('head')
                 }
             }
@@ -284,9 +284,9 @@ $(function () {
             return this.each(function () {
                 var Elemento;
                 var CropWindowStyle = {
-                    "jqueryui": "src/windows/window.jqueryui.php",
-                    "popstyle": "src/windows/window.popstyle.php",
-                    "bootstrap": "src/windows/window.bootstrap.php"
+                    "jqueryui": "templates/jqueryui.html",
+                    "popstyle": "templates/popstyle.html",
+                    "bootstrap": "templates/bootstrap.html"
                 };
                 var $EnableButton;
                 JpaneDialogCrop = function (action, titulo, w, h, wmodal, drag, resize, post, Call) {
@@ -501,6 +501,9 @@ $(function () {
                         Carregar_Imagem(Principal, Imagem);
                         MontarSelecaoRecorte($("#JtuyoshiCrop #SelecaoRecorte"), "create");
                         Redimencionar_Janela();
+                        $("#JtuyoshiCrop #button_crop_cancel").bind("click", function () {
+                            $('#JtuyoshiCrop').dialog('close');
+                        });
                         $("#JtuyoshiCrop #button_crop_original").bind("click", function () {
                             Retorno_Requisicao(element, response, 1)
                         });
@@ -668,9 +671,9 @@ $(function () {
                         }
                     });
                     element.find(":file[name='" + Options.InputOfFile + "']").mouseenter(function () {
-                        element.addClass("TuyoshiImageUpload_div")
+                        element.addClass("hover")
                     }).mouseout(function () {
-                        element.removeClass("TuyoshiImageUpload_div")
+                        element.removeClass("hover")
                     })
                 };
                 var Retorno_Requisicao = function (element, response, concluir) {

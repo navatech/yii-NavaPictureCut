@@ -1,6 +1,6 @@
 <?php
 
-require_once('core/PictureCut.php');
+require_once('class/PictureCut.php');
 
 try {
 
@@ -9,7 +9,7 @@ try {
 	if($pictureCut->crop()){
 		print $pictureCut->toJson();
 	} else {
-     print $pictureCut->exceptionsToJson(); //print exceptions if the upload fails
+     print $pictureCut->exceptionsToJson();
   	}
 
 } catch (Exception $e) {

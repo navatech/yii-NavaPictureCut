@@ -2,11 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f42f00-4dc2-41e1-b1b0-e9761f9541f7" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\picturecut.jquery.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/php/core/PictureCut.php" afterPath="$PROJECT_DIR$/src/php/core/PictureCut.php" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\img\ajaxloader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\img\fundo_crop.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\img\icon_add_image.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\img\icon_add_image2.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\img\icon_add_image2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\img\interrogacao.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\jquery.picture.cut.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\php\core\PictureCut.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\php\core\TVimageManipulation.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\php\crop.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\php\upload.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-bg_glass_75_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-bg_inset-soft_95_fef1ec_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\images\ui-icons_f6cf3b_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\JanelaBootstrap\jquery-ui-1.10.0.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\core\window.pc.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\window.bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\window.jqueryui.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\src\windows\window.popstyle.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\b375f3a1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\b39a4c8a.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\b3e0db03.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\c1d37199.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\c791ba56.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\d4fb7aac.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\d52860f9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\dda119f2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\eadc8715.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\f2238157.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Xampp\htdocs\jQuery-Picture-Cut\uploads\fe70e470.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jquery.picture.cut.js" afterPath="$PROJECT_DIR$/src/jquery.picture.cut.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jQuery-Picture-Cut.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,59 +66,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TVimageManipulation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/php/core/TVimageManipulation.php">
+      <file leaf-file-name="jquery.picture.cut.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/jquery.picture.cut.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="184" column="49" selection-start-line="184" selection-start-column="49" selection-end-line="184" selection-end-column="49" />
+            <state vertical-scroll-proportion="-7.62069">
+              <caret line="190" column="54" selection-start-line="190" selection-start-column="54" selection-end-line="190" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crop.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crop.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/php/upload.php">
+        <entry file="file://$PROJECT_DIR$/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="window.bootstrap.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/windows/window.bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54464287">
-              <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.picture.cut.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jquery.picture.cut.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.827586">
-              <caret line="340" column="73" selection-start-line="340" selection-start-column="73" selection-end-line="340" selection-end-column="73" />
-              <folding>
-                <element signature="e#27697#32809#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.30357143">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,10 +132,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/php/core/TVimageManipulation.php" />
-        <option value="$PROJECT_DIR$/src/windows/window.bootstrap.php" />
         <option value="$PROJECT_DIR$/src/php/core/PictureCut.php" />
-        <option value="$PROJECT_DIR$/src/jquery.picture.cut.js" />
+        <option value="$PROJECT_DIR$/assets/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/windows/window.bootstrap.php" />
+        <option value="$PROJECT_DIR$/src/jquery.picture.cut.js" />
+        <option value="$PROJECT_DIR$/assets/jquery.picture.cut.js" />
+        <option value="$PROJECT_DIR$/upload.php" />
+        <option value="$PROJECT_DIR$/crop.php" />
       </list>
     </option>
   </component>
@@ -163,109 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JanelaBootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQuery-Picture-Cut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,6 +221,29 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -296,6 +264,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -306,7 +275,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -319,56 +287,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/php/core/TVimageManipulation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="184" column="49" selection-start-line="184" selection-start-column="49" selection-end-line="184" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/php/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/window.bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jquery.picture.cut.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="215" column="40" selection-start-line="215" selection-start-column="35" selection-end-line="215" selection-end-column="40" />
-          <folding>
-            <element signature="e#27697#32809#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/php/crop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/php/core/PictureCut.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -398,82 +316,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/window.jqueryui.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3846154">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/php/core/TVimageManipulation.php">
+    <entry file="file://$PROJECT_DIR$/assets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="184" column="49" selection-start-line="184" selection-start-column="49" selection-end-line="184" selection-end-column="49" />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/window.popstyle.php">
+    <entry file="file://$PROJECT_DIR$/assets/jquery.picture.cut.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        <state vertical-scroll-proportion="-7.62069">
+          <caret line="190" column="54" selection-start-line="190" selection-start-column="54" selection-end-line="190" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/core/window.pc.js">
+    <entry file="file://$PROJECT_DIR$/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3752418">
-          <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/php/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/php/crop.php">
+    <entry file="file://$PROJECT_DIR$/crop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/php/core/PictureCut.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="281" column="43" selection-start-line="281" selection-start-column="43" selection-end-line="281" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jquery.picture.cut.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.827586">
-          <caret line="340" column="73" selection-start-line="340" selection-start-column="73" selection-end-line="340" selection-end-column="73" />
-          <folding>
-            <element signature="e#27697#32809#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/windows/window.bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54464287">
-          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.30357143">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
       </provider>
