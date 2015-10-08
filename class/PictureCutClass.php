@@ -2,7 +2,7 @@
 @session_start();
 require_once('TVimageManipulation.php');
 
-class PictureCut
+class PictureCutClass
 {
 
     private $request;
@@ -171,7 +171,7 @@ class PictureCut
     public static function createSingleton()
     {
         if (self::$instance == NULL) {
-            self::$instance = (new PictureCut());
+            self::$instance = (new PictureCutClass());
         }
         return self::$instance;
     }

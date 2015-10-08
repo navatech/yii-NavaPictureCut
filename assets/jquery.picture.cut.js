@@ -71,8 +71,8 @@ $(function () {
     PcLoading = {
         show: function (c, a) {
             var b = $("<div id='dialog-UiConfirm' ></div>");
-            c = "undefined" == typeof c ? "Wait..." : c;
-            a = "undefined" == typeof a ? "Wait!" : a;
+            c = "undefined" == typeof c ? "Vui lòng chờ..." : c;
+            a = "undefined" == typeof a ? "Vui lòng chờ!" : a;
             var d = $("<div></div>").css("margin", "15px"),
                 f = $("<img src='" + __IMAGE_LOADING + "' >").css({
                     "float": "left",
@@ -131,7 +131,7 @@ $(function () {
             e.setData = function (a) {
                 b.data = a
             };
-            var c = a('<form  method="' + b.method + '" enctype="multipart/form-data" action="' + b.url + '"> <input name="' + b.name + '" type="file" accept="' + b.acceptEx + '" /></form>'),
+            var c = a('<form  method="' + b.method + '" enctype="multipart/form-data" action="' + b.url + '"> <input class="file" name="' + b.name + '" type="file" accept="' + b.acceptEx + '" /></form>'),
                 h = c.find("input[name=" + b.name + "]");
             h.css({
                 display: "block",
@@ -146,7 +146,7 @@ $(function () {
                 filter: "alpha(opacity=0)",
                 "z-index": 10,
                 overflow: "hidden"
-            }).attr("title", "Choose a picture");
+            }).attr("title", "Sửa ảnh");
             h.on("change", function (d) {
                 d = h.val().replace(/C:\\fakepath\\/i, "");
                 d = d.substring(d.lastIndexOf(".") + 1);
@@ -195,7 +195,7 @@ $(function () {
             var OptionsIfEmpty = {
                 ActionToSubmitUpload: "upload.php",
                 ActionToSubmitCrop: "crop.php",
-                DefaultImageButton: "assets/icon_add_image.png"
+                DefaultImageButton: "icon_add_image.png"
             };
             var defaults = {
                 Extensions: ["jpg", "png", "gif"],
@@ -215,6 +215,7 @@ $(function () {
                 MaximumSize: 1024,
                 EnableMaximumSize: false,
                 PluginFolderOnServer: "",
+                AssetsFolderOnServer: "",
                 CropWindowStyle: "bootstrap",
                 ImageNameRandom: true,
                 EnableButton: false,
@@ -256,13 +257,13 @@ $(function () {
             ;
             Options.ActionToSubmitUpload = (Options.ActionToSubmitUpload == "") ? Options.PluginFolderOnServer + OptionsIfEmpty.ActionToSubmitUpload : Options.ActionToSubmitUpload;
             Options.ActionToSubmitCrop = (Options.ActionToSubmitCrop == "") ? Options.PluginFolderOnServer + OptionsIfEmpty.ActionToSubmitCrop : Options.ActionToSubmitCrop;
-            Options.DefaultImageButton = (Options.DefaultImageButton == "") ? Options.PluginFolderOnServer + OptionsIfEmpty.DefaultImageButton : Options.DefaultImageButton;
+            Options.DefaultImageButton = (Options.DefaultImageButton == "") ? Options.AssetsFolderOnServer + OptionsIfEmpty.DefaultImageButton : Options.DefaultImageButton;
             Options.CropWindowStyle = Options.CropWindowStyle.toLowerCase();
             if (Options.InputOfFile == "") {
                 Options.InputOfFile = "file-" + Options.InputOfImageDirectory
             }
             ;
-            __IMAGE_LOADING = Options.PluginFolderOnServer + "assets/ajaxloader.gif";
+            __IMAGE_LOADING = Options.AssetsFolderOnServer + "ajaxloader.gif";
             if (Options.PastaCrop != undefined) Options.PluginFolderOnServer = Options.PastaCrop;
             if (Options.CropWindowStyle.toLowerCase() == "bootstrap") {
                 var id = "picture_element_css_to_bootstrap";
@@ -271,7 +272,7 @@ $(function () {
                         id: id,
                         rel: 'stylesheet',
                         type: 'text/css',
-                        href: Options.PluginFolderOnServer + 'templates/JanelaBootstrap/jquery-ui-1.10.0.custom.css'
+                        href: Options.AssetsFolderOnServer + 'jquery-ui-1.10.0.custom.css'
                     }).appendTo('head')
                 }
             }
@@ -317,7 +318,7 @@ $(function () {
                         "height": "100%",
                         "border": "1px #CCC solid",
                         "background-image": "url(" + __IMAGE_LOADING + ")",
-                        "background-image": "url(" + Options.PluginFolderOnServer + "src/img/fundo_crop.png)",
+                        "background-image": "url(" + Options.AssetsFolderOnServer + "fundo_crop.png)",
                         "z-index": 598
                     });
                     if (wmodal) $("body").append($modal);
@@ -488,13 +489,14 @@ $(function () {
                             "width": response.currentWidth + 5,
                             "height": response.currentHeight + 5
                         });
+                        console.log(Imagem);
                         Imagem.css({
                             "width": response.currentWidth,
                             "height": response.currentHeight
                         }).attr("src", Options.FolderOnServer + response.currentFileName + "?" + Math.round(Math.random() * 9999))
                     };
                     var JpaneDialogCallBack = function () {
-                        $.getScript(Options.PluginFolderOnServer + "src/windows/core/window.pc.js");
+                        $.getScript(Options.AssetsFolderOnServer + "window.pc.js");
                         var Principal = $("#JtuyoshiCrop #Principal");
                         var Imagem = $("<img />");
                         Principal.append(Imagem);
@@ -536,9 +538,9 @@ $(function () {
                             }, "JSON");
                         })
                     };
-                    if (Options.CropWindowStyle == "jqueryui") PcDialog(Options.PluginFolderOnServer + CropWindowStyle[Options.CropWindowStyle], "JtuyoshiCrop", "Crop image", 900, 555, true, true, false, null, JpaneDialogCallBack);
-                    else if (Options.CropWindowStyle == "popstyle") JpaneDialogCrop(Options.PluginFolderOnServer + CropWindowStyle[Options.CropWindowStyle], "Crop image", 980, 555, true, false, false, null, JpaneDialogCallBack);
-                    else if (Options.CropWindowStyle == "bootstrap") PcDialog(Options.PluginFolderOnServer + CropWindowStyle[Options.CropWindowStyle], "JtuyoshiCrop", Options.Title, 900, 555, true, true, false, null, JpaneDialogCallBack)
+                    if (Options.CropWindowStyle == "jqueryui") PcDialog(Options.AssetsFolderOnServer + CropWindowStyle[Options.CropWindowStyle], "JtuyoshiCrop", "Crop image", 900, 555, true, true, false, null, JpaneDialogCallBack);
+                    else if (Options.CropWindowStyle == "popstyle") JpaneDialogCrop(Options.AssetsFolderOnServer + CropWindowStyle[Options.CropWindowStyle], "Crop image", 980, 555, true, false, false, null, JpaneDialogCallBack);
+                    else if (Options.CropWindowStyle == "bootstrap") PcDialog(Options.AssetsFolderOnServer + CropWindowStyle[Options.CropWindowStyle], "JtuyoshiCrop", Options.Title, 900, 555, true, true, false, null, JpaneDialogCallBack)
                 };
                 var Construir_Widget = function (element) {
                     element.css($.extend(Options.ImageButtonCSS, {
@@ -592,11 +594,9 @@ $(function () {
                             if (Options.EnableButton) {
                                 $EnableButton.unbind("click").bind("click", function () {
                                     $inputHidden.val("").change()
-                                }).val("Remove Picture")
+                                }).val("Xóa ảnh")
                             }
-                            ;
                             $image.on("load", function () {
-                                console.log("load");
                                 if ($(this).height() < $(this).width()) {
                                     $(this).css({
                                         "height": Options.ImageButtonCSS.height
@@ -679,7 +679,7 @@ $(function () {
                 var Retorno_Requisicao = function (element, response, concluir) {
                     var response = response;
                     var ColocarImagemNoBox = function () {
-                        var InputOfImage = element.children("input[name='" + Options.InputOfImageDirectory + "']");
+                        var InputOfImage = element.children("input[name='" + Options.InputOfImageDirectoryAttr.name + "']");
                         InputOfImage.val(Options.FolderOnServer + response.currentFileName).change();
                         if (typeof(Options.UploadedCallback) == 'function') {
                             var data_response = response;

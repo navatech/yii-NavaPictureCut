@@ -1,6 +1,6 @@
 <?php
 
-require_once('class/PictureCut.php');
+require_once('class/PictureCutClass.php');
 
 try {
 
