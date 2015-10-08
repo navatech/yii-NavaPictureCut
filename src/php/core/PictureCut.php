@@ -264,18 +264,14 @@ class PictureCut
     public function crop()
     {
         try {
-//            print_r(array('currentWidth' => $this->currentWidth, 'currentHeight' => $this->currentHeight));
-//            print_r($_SESSION);
-            //TODO Ph??ng c?n l?y l?i giá tr? th?c ? ch? này
-            /**
-             * n?u giá tr? ?ã ???c gán l?i thì ph?i tính nh? sau, l?u ý gi? ?úng v? trí phép tính
-             * toCropImgX2 = (toCropImgX + toCropImgW) * (session.currentWidth / this.currentWidth)
-             * toCropImgY2 = (toCropImgY + toCropImgH) * (session.currentHeight / this.currentHeight)
-             * toCropImgX = toCropImgX * (session.currentWidth / this.currentWidth)
-             * toCropImgY = toCropImgY * (session.currentHeight / this.currentHeight)
-             * toCropImgW = toCropImgX2 - toCropImgX
-             * toCropImgH = toCropImgY2 - toCropImgY
-             * */
+            if ($_SESSION['currentWidth'] != $this->currentWidth || $_SESSION['currentHeight'] != $this->currentHeight) {
+                $toCropImgX2 = ($this->toCropImgX + $this->toCropImgW) * ($_SESSION['currentWidth'] / $this->currentWidth);
+                $toCropImgY2 = ($this->toCropImgY + $this->toCropImgH) * ($_SESSION['currentHeight'] / $this->currentHeight);
+                $this->toCropImgX = $this->toCropImgX * ($_SESSION['currentWidth'] / $this->currentWidth);
+                $this->toCropImgY = $this->toCropImgY * ($_SESSION['currentHeight'] / $this->currentHeight);
+                $this->toCropImgW = $toCropImgX2 - $this->toCropImgX;
+                $this->toCropImgH = $toCropImgY2 - $this->toCropImgY;
+            }
             $this->TVimageManipulation = new TVimageManipulation($this->currentFile);
             $this->TVimageManipulation->crop($this->toCropImgX, $this->toCropImgY, $this->toCropImgW, $this->toCropImgH);
             $this->TVimageManipulation->save($this->currentFile);

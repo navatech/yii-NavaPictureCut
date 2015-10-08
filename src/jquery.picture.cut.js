@@ -223,12 +223,13 @@ $(function () {
                     width: 170,
                     height: 150
                 },
-                Title:"Crop Image",
+                Title: "Crop Image",
                 CropModes: {
                     widescreen: true,
                     letterbox: true,
                     free: true
                 },
+                Ratio: 4 / 3,
                 CropOrientation: true,
                 UploadedCallback: function (response) {
                 }
@@ -330,11 +331,10 @@ $(function () {
                     })
                 };
                 var TuyoshiCrop = function (element, response) {
-                    var response = response;
                     var MontarSelecaoRecorte = function (SelecaoRecorte, state) {
                         var ElemSelectProporcao, ElemSelectOrientacao;
                         var Swidth = (response.currentWidth / 100) * 80;
-                        var Sheight = (Swidth / 16) * 9;
+                        var Sheight = Swidth / Options.Ratio;
                         SelecaoRecorte.css({
                             "width": Swidth,
                             "height": Sheight,
@@ -384,16 +384,9 @@ $(function () {
                                     minHeight: (Sheight / 100) * 10
                                 })
                             } else {
-                                var InitRatio = 0;
-                                if (ElemSelectProporcao.val() == "wide") {
-                                    InitRatio = 16 / 9;
-                                    Swidth = (response.currentWidth / 100) * 80;
-                                    Sheight = (Swidth / 16) * 9
-                                } else {
-                                    InitRatio = 4 / 3;
-                                    Swidth = (response.currentWidth / 100) * 80;
-                                    Sheight = (Swidth / 4) * 3
-                                }
+                                var InitRatio = Options.Ratio;
+                                Swidth = (response.currentWidth / 100) * 80;
+                                Sheight = Swidth / InitRatio
                                 ;
                                 SelecaoRecorte.css({
                                     "width": Swidth,
@@ -412,7 +405,7 @@ $(function () {
                         ;
                         if (Sheight > response.currentHeight) {
                             Sheight = (response.currentHeight / 100) * 80;
-                            Swidth = (Sheight * 16) / 9;
+                            Swidth = Sheight * Options.Ratio;
                             SelecaoRecorte.css({
                                 "width": Swidth,
                                 "height": Sheight,

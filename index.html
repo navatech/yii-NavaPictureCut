@@ -12,16 +12,17 @@
 
 <script>
     $(".upload").PictureCut({
-        InputOfImageDirectory: "image",
+        InputOfImageDirectory: "iamage",
         PluginFolderOnServer: "/jQuery-Picture-Cut/",
         FolderOnServer: "/jQuery-Picture-Cut/uploads/",
         EnableCrop: true,
         CropWindowStyle: "Bootstrap",
         Title: "Sửa ảnh",
-        CropModes: {
-            widescreen: false,
-            letterbox: true,
-            free: false
-        }
+        ImageButtonCSS: {
+            border: "1px #CCC solid",
+            width: 140,
+            height: 100
+        },
+        Ratio: 280 / 200
     });
 </script>
