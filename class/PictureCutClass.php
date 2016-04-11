@@ -301,4 +301,27 @@ class PictureCutClass {
 			"errorMessage" => $this->errorMessage,
 		));
 	}
+
+	public static function extension($url) {
+		$image_exif = exif_imagetype(Yii::app()->request->hostInfo . Yii::app()->baseUrl . $url);
+		switch ($image_exif) {
+			case IMAGETYPE_GIF:
+				$extension = 'gif';
+				break;
+			case IMAGETYPE_JPEG        :
+				$extension = 'jpg';
+				break;
+			case IMAGETYPE_PNG        :
+				$extension = 'png';
+				break;
+			default:
+				$extension = 'jpg';
+				break;
+		}
+		return $extension;
+	}
+
+	public static function content($url) {
+		return file_get_contents(Yii::app()->request->hostInfo . Yii::app()->baseUrl . $url);
+	}
 }
