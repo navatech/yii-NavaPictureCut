@@ -179,6 +179,9 @@ class PictureCutClass {
 	}
 
 	public function upload() {
+		if (!file_exists(dirname($this->currentFile))) {
+			mkdir(dirname($this->currentFile), 0777, true);
+		}
 		try {
 			if (move_uploaded_file($this->fileStream['tmp_name'], $this->currentFile)) {
 				$this->TVimageManipulation = new TVimageManipulation($this->currentFile);
